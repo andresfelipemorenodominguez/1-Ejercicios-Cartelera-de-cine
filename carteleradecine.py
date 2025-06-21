@@ -1,16 +1,25 @@
-peliculas = ["Avatar", "Titanic", "Interestelar"]
-salas = ["Sala 1", "Sala 2", "Sala 3"]
+p1 = input("Ingresa una película: ")
+p2 = input("Ingresa otra película: ")
+p3 = input("Ingresa una tercera película: ")
+peliculas = [p1, p2, p3]
+
+s1 = input("Ingresa una sala: ")
+s2 = input("Ingresa otra sala: ")
+s3 = input("Ingresa una tercera sala: ")
+salas = [s1, s2, s3]
 
 if "Interestelar" in peliculas:
     peliculas.append("Duna")
 else:
     print("este string no esta en la lista")
     
+
 if "Sala 3" in salas:
     salas.append("Sala VIP")
 else:
     print("este string no esta en la lista")
     
+
 if "Titanic" in peliculas:
     peliculas.remove("Titanic")
 else:
@@ -59,9 +68,7 @@ if "Titanic" not in peliculas:
     peliculas.append("Titanic")
 else:
     print("este string no esta en la lista")
-
-
-
+    
 print(salas)
 print(peliculas)
 print(estrenos)
