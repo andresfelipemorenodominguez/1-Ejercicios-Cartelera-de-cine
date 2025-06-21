@@ -52,7 +52,7 @@ else:
 if "3D" in estrenos:
     programacion = {"pelicula": "Avatar 2", "sala": "Sala 2", "formato": "3D"}
 else:
-    print("este string no esta en el diccionario")
+    print("este string no esta en la lista")
     
 if 'programacion' in locals():
     programacion["hora"] = "6:30PM"
@@ -67,7 +67,7 @@ else:
 if "Titanic" not in peliculas:
     peliculas.append("Titanic")
 else:
-    print("este string no esta en la lista")
+    print("este string ya esta en la lista")
     
 print(salas)
 print(peliculas)
